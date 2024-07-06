@@ -1,0 +1,7 @@
+[hyprco]
+description = "Hyprco a Hyprland plugin"
+authors = ["hadishahpuri"]
+output = "hyprco.so"
+build = [
+    "make all"
+]
