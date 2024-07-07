@@ -3,5 +3,6 @@ description = "Hyprco a Hyprland plugin"
 authors = ["hadishahpuri"]
 output = "hyprco.so"
 build = [
-    "make all"
+    "meson setup build --wipe",
+    "meson compile -C build",
 ]
